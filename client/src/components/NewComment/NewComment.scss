@@ -1,0 +1,42 @@
+.form {
+  padding: 50px 0;
+
+  &__input {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    padding: 20px 0;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1.5px solid #18181b;
+    transition: 0.5s;
+    font-family: inherit;
+    font-size: 20px;
+    max-height: 120px;
+    outline: none;
+    resize: none;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto;
+    padding: 0 65px;
+    margin-top: 50px;
+    height: 72px;
+
+    border: 0;
+    border-radius: 231px;
+    background-color: #ff824c;
+    color: #18181b;
+    line-height: 72px;
+    font-size: 20px;
+    text-align: center;
+    transition: .4s;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+      background: #18181b;
+    }
+  }
+}
