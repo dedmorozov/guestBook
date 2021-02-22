@@ -7,7 +7,7 @@
     "build": "npm i && (cd client && npm i)",
     "dev": "nodemon src/server.js",
     "client": "cd client && npm start",
-    "start": "concurrently \"npm run dev\" \"npm run client\""
+    "start": "npm run build && concurrently \"npm run dev\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "eslint": "^7.20.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-only-warn": "^1.0.2",
     "nodemon": "^2.0.7"
   }
 }
