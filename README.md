@@ -1,3 +1,3 @@
 ### guest book app
 
-`npm start` - to start local
+`npm run build && npm run devStart` - to start local
