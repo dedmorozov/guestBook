@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "build": "npm i && (cd client && npm i)",
-    "dev": "node src/server.js",
     "client": "cd client && npm start",
-    "start": "concurrently \"npm run dev\" \"npm run client\""
+    "devStart": "concurrently \"npm run client\" \"npm run start\"",
+    "start": "node src/server.js"
   },
   "author": "",
   "license": "ISC",

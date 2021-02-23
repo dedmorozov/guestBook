@@ -3,4 +3,7 @@ module.exports = {
   rules: {
     'no-underscore-dangle': 'off',
   },
+  plugins: [
+    'eslint-plugin-only-warn',
+  ],
 };

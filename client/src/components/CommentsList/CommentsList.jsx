@@ -22,7 +22,6 @@ CommentsList.propTypes = {
       imgUrl: PropTypes.string,
       name: PropTypes.string.isRequired,
       message: PropTypes.string.isRequired,
-      time: PropTypes.string.isRequired,
     }),
   ),
   removeComment: PropTypes.func.isRequired,
